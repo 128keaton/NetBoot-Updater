@@ -3,17 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08C69031E20BCC9CEB0BA5C2 /* Pods_NetBoot_Updater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392B29AF9A23CD64821D5D3A /* Pods_NetBoot_Updater.framework */; };
 		8A9443DE2284722D0022D345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9443DD2284722D0022D345 /* AppDelegate.swift */; };
 		8A9443E02284722D0022D345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9443DF2284722D0022D345 /* ViewController.swift */; };
 		8A9443E22284722F0022D345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9443E12284722F0022D345 /* Assets.xcassets */; };
 		8A9443E52284722F0022D345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9443E32284722F0022D345 /* Main.storyboard */; };
+		8A9443F0228472FB0022D345 /* ApplicationDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9443EF228472FB0022D345 /* ApplicationDropView.swift */; };
+		8A9443F2228473050022D345 /* NetBootImageDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9443F1228473050022D345 /* NetBootImageDropView.swift */; };
+		8A9443F922847AEC0022D345 /* ApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9443F822847AEC0022D345 /* ApplicationInfo.swift */; };
+		8A9443FB22847C460022D345 /* DiskImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9443FA22847C460022D345 /* DiskImageInfo.swift */; };
+		8A9443FD22847CF60022D345 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9443FC22847CF60022D345 /* Extensions.swift */; };
+		8A9443FF228484630022D345 /* SystemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9443FE228484630022D345 /* SystemEntity.swift */; };
+		8A944401228485560022D345 /* DiskUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A944400228485560022D345 /* DiskUtil.swift */; };
+		8A94440422848C9D0022D345 /* copy_applications.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8A94440322848C9D0022D345 /* copy_applications.sh */; };
+		8A94440622848CFB0022D345 /* AuthenticatedCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A94440522848CFB0022D345 /* AuthenticatedCopy.swift */; };
+		8A94440822849EAD0022D345 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A94440722849EAD0022D345 /* LoadingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10446004697F47E6CA499364 /* Pods-NetBoot Updater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetBoot Updater.debug.xcconfig"; path = "Target Support Files/Pods-NetBoot Updater/Pods-NetBoot Updater.debug.xcconfig"; sourceTree = "<group>"; };
+		392B29AF9A23CD64821D5D3A /* Pods_NetBoot_Updater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetBoot_Updater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FE2DAEDF1C71AF7C643B98 /* Pods-NetBoot Updater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetBoot Updater.release.xcconfig"; path = "Target Support Files/Pods-NetBoot Updater/Pods-NetBoot Updater.release.xcconfig"; sourceTree = "<group>"; };
 		8A9443DA2284722D0022D345 /* NetBoot Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetBoot Updater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9443DD2284722D0022D345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A9443DF2284722D0022D345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +35,16 @@
 		8A9443E42284722F0022D345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A9443E62284722F0022D345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A9443E72284722F0022D345 /* NetBoot_Updater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetBoot_Updater.entitlements; sourceTree = "<group>"; };
+		8A9443EF228472FB0022D345 /* ApplicationDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDropView.swift; sourceTree = "<group>"; };
+		8A9443F1228473050022D345 /* NetBootImageDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetBootImageDropView.swift; sourceTree = "<group>"; };
+		8A9443F822847AEC0022D345 /* ApplicationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationInfo.swift; sourceTree = "<group>"; };
+		8A9443FA22847C460022D345 /* DiskImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskImageInfo.swift; sourceTree = "<group>"; };
+		8A9443FC22847CF60022D345 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8A9443FE228484630022D345 /* SystemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemEntity.swift; sourceTree = "<group>"; };
+		8A944400228485560022D345 /* DiskUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskUtil.swift; sourceTree = "<group>"; };
+		8A94440322848C9D0022D345 /* copy_applications.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = copy_applications.sh; sourceTree = "<group>"; };
+		8A94440522848CFB0022D345 /* AuthenticatedCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedCopy.swift; sourceTree = "<group>"; };
+		8A94440722849EAD0022D345 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08C69031E20BCC9CEB0BA5C2 /* Pods_NetBoot_Updater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +64,8 @@
 			children = (
 				8A9443DC2284722D0022D345 /* NetBoot Updater */,
 				8A9443DB2284722D0022D345 /* Products */,
+				F23A986B1D9557339B0AC7DF /* Pods */,
+				BB806A5CBF0C22302F5B5541 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,13 +81,80 @@
 			isa = PBXGroup;
 			children = (
 				8A9443DD2284722D0022D345 /* AppDelegate.swift */,
-				8A9443DF2284722D0022D345 /* ViewController.swift */,
+				8A9443FC22847CF60022D345 /* Extensions.swift */,
+				8A94440A2284A8F80022D345 /* Helpers */,
+				8A9443F722847ADE0022D345 /* Parsers */,
+				8A9443EE228472E10022D345 /* Drop Views */,
+				8A9443ED228472C50022D345 /* Scripts */,
+				8A9444092284A8EB0022D345 /* View Controllers */,
 				8A9443E12284722F0022D345 /* Assets.xcassets */,
 				8A9443E32284722F0022D345 /* Main.storyboard */,
 				8A9443E62284722F0022D345 /* Info.plist */,
 				8A9443E72284722F0022D345 /* NetBoot_Updater.entitlements */,
 			);
 			path = "NetBoot Updater";
+			sourceTree = "<group>";
+		};
+		8A9443ED228472C50022D345 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				8A94440322848C9D0022D345 /* copy_applications.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		8A9443EE228472E10022D345 /* Drop Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A9443EF228472FB0022D345 /* ApplicationDropView.swift */,
+				8A9443F1228473050022D345 /* NetBootImageDropView.swift */,
+			);
+			path = "Drop Views";
+			sourceTree = "<group>";
+		};
+		8A9443F722847ADE0022D345 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				8A9443F822847AEC0022D345 /* ApplicationInfo.swift */,
+				8A9443FA22847C460022D345 /* DiskImageInfo.swift */,
+				8A9443FE228484630022D345 /* SystemEntity.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		8A9444092284A8EB0022D345 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A94440722849EAD0022D345 /* LoadingViewController.swift */,
+				8A9443DF2284722D0022D345 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8A94440A2284A8F80022D345 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8A94440522848CFB0022D345 /* AuthenticatedCopy.swift */,
+				8A944400228485560022D345 /* DiskUtil.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BB806A5CBF0C22302F5B5541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				392B29AF9A23CD64821D5D3A /* Pods_NetBoot_Updater.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F23A986B1D9557339B0AC7DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10446004697F47E6CA499364 /* Pods-NetBoot Updater.debug.xcconfig */,
+				85FE2DAEDF1C71AF7C643B98 /* Pods-NetBoot Updater.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A9443EA2284722F0022D345 /* Build configuration list for PBXNativeTarget "NetBoot Updater" */;
 			buildPhases = (
+				30B437A6898BD1FD4D1C5688 /* [CP] Check Pods Manifest.lock */,
 				8A9443D62284722D0022D345 /* Sources */,
 				8A9443D72284722D0022D345 /* Frameworks */,
 				8A9443D82284722D0022D345 /* Resources */,
+				1E8BBAC8752D3697AFD02D80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -95,6 +191,11 @@
 				TargetAttributes = {
 					8A9443D92284722D0022D345 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -123,10 +224,53 @@
 			files = (
 				8A9443E22284722F0022D345 /* Assets.xcassets in Resources */,
 				8A9443E52284722F0022D345 /* Main.storyboard in Resources */,
+				8A94440422848C9D0022D345 /* copy_applications.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8BBAC8752D3697AFD02D80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetBoot Updater/Pods-NetBoot Updater-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetBoot Updater/Pods-NetBoot Updater-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetBoot Updater/Pods-NetBoot Updater-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30B437A6898BD1FD4D1C5688 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetBoot Updater-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A9443D62284722D0022D345 /* Sources */ = {
@@ -134,7 +278,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9443E02284722D0022D345 /* ViewController.swift in Sources */,
+				8A9443FF228484630022D345 /* SystemEntity.swift in Sources */,
+				8A9443F0228472FB0022D345 /* ApplicationDropView.swift in Sources */,
+				8A9443F922847AEC0022D345 /* ApplicationInfo.swift in Sources */,
+				8A94440622848CFB0022D345 /* AuthenticatedCopy.swift in Sources */,
+				8A944401228485560022D345 /* DiskUtil.swift in Sources */,
 				8A9443DE2284722D0022D345 /* AppDelegate.swift in Sources */,
+				8A9443FB22847C460022D345 /* DiskImageInfo.swift in Sources */,
+				8A94440822849EAD0022D345 /* LoadingViewController.swift in Sources */,
+				8A9443F2228473050022D345 /* NetBootImageDropView.swift in Sources */,
+				8A9443FD22847CF60022D345 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +422,9 @@
 		};
 		8A9443EB2284722F0022D345 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10446004697F47E6CA499364 /* Pods-NetBoot Updater.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "NetBoot Updater/NetBoot_Updater.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = JMQ9Y3A8K6;
@@ -280,6 +433,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.128keaton.NetBoot-Updater";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -288,9 +442,9 @@
 		};
 		8A9443EC2284722F0022D345 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85FE2DAEDF1C71AF7C643B98 /* Pods-NetBoot Updater.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "NetBoot Updater/NetBoot_Updater.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = JMQ9Y3A8K6;
@@ -299,6 +453,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.128keaton.NetBoot-Updater";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
